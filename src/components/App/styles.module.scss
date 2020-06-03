@@ -1,0 +1,19 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 1000ms linear;
+}
+
+.spinner {
+  width: 70px;
+  height: 70px;
+  border-width: 6px;
+}
+
+.weatherIcon {
+  width: 120px;
+  transition: all 1000ms linear;
+}
